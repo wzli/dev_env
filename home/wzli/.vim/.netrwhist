@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/wzli/.local/share'
+let g:netrw_dirhist_6='/home/wzli/.local'
+let g:netrw_dirhist_5='/home/wzli/scripts'
+let g:netrw_dirhist_4='/home/wzli/scripts/configs'
+let g:netrw_dirhist_3='/home/wzli/scripts'
+let g:netrw_dirhist_2='/home/wzli'
+let g:netrw_dirhist_1='/home/wzli/dev_env'
