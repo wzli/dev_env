@@ -1,6 +1,8 @@
 FROM ros:melodic
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y \
+  python-pip \
+  python3-pip \
   dropbear \
   git \
   ssh \
