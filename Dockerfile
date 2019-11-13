@@ -2,6 +2,8 @@ FROM ros:melodic
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y \
   dropbear \
+  git \
+  ssh \
   screen \
   vim \
   htop \
