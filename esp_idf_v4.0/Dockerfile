@@ -12,6 +12,8 @@ RUN apt update && apt install -y \
   screen \
   vim \
   htop \
+  clang-format \
+  python3-yapf \
   && rm -rf /var/cache/*
 RUN sed -i "s/^.*X11UseLocalhost.*$/X11UseLocalhost no/" /etc/ssh/sshd_config \
     && useradd -ms /bin/bash -G sudo,dialout wzli && sed -i '$d' /etc/shadow \
