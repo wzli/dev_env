@@ -12,6 +12,7 @@ RUN apt update && apt install -y \
   screen \
   vim \
   htop \
+  cmake \
   clang-format \
   python3-yapf \
   && rm -rf /var/cache/*
